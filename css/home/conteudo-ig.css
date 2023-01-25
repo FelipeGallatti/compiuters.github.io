@@ -1,0 +1,17 @@
+.conteudo-ig {
+    height: 1570px;
+    background: var(--cor-0);
+}
+
+.conteudo-ig h2{
+text-align: center;
+padding-top: 50px;
+}
+
+.post-ig ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+}

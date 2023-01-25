@@ -1,25 +1,26 @@
 .computadores-lista {
-padding-top: 45px;
+padding-top: 50px;
 padding-bottom: 120px;
 }
 
 .computadores-lista h2 {
  margin-bottom: 40px;
- max-width: 1200px;
- padding-left: 20px;
- padding-right: 20px;
- box-sizing: border-box;
- margin-left: auto;
- margin-right: auto;
+ margin-top: 74px;
 }
 
 .computadores-lista ul {
 display: flex;
 gap: 40px;
 padding: 0 20px;
-max-width: 1400px;
+max-width: 1300px;
 margin-left: auto;
 margin-right: auto;
+overflow: auto;
+}
+
+.computadores-lista li {
+    flex: 1;
+    min-width: 280px;
 }
 
 .computadores-lista img {
@@ -40,9 +41,28 @@ margin-right: auto;
     width: 10px;
   display: inline-block;
   border-radius: 5px;
+  transition: width 0.3s;
+}
+
+.computadores-lista a:hover h3::before {
+    width: 14px;
 }
 
 
 .computadores-lista li span {
 margin-left: 10px;
+}
+
+@media (max-width:900px){
+    .computadores-lista h3 {
+        font: 400 1.5rem/1.5 "Poppins", sans-serif;
+    }
+}
+
+@media (max-width:650px){
+    
+    
+    .computadores-lista h2 {
+        margin-top: 40px;
+    }
 }
