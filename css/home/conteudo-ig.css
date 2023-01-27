@@ -3,15 +3,40 @@
     background: var(--cor-0);
 }
 
-.conteudo-ig h2{
-text-align: center;
-padding-top: 50px;
+.conteudo-ig h2 {
+    margin-bottom: 40px;
+    margin-top: 74px;
+    text-align: center;
 }
 
-.post-ig ul {
+.conteudo-ig ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    padding-top: 50px;
+gap: 40px;
+padding: 0 20px;
+overflow: auto;
+}
+
+
+.conteudo-ig img {
+    object-fit: cover;
+}
+
+
+
+@media (max-width:1550px){
+    .conteudo-ig img {
+    max-width: 400px;  
+    }
+}
+
+@media (max-width:1300px){
+    .conteudo-ig img {
+    max-width: 320px; 
+    }
+
+    .post-ig ul {
+        overflow: scroll;
+    
+
+    }
 }
