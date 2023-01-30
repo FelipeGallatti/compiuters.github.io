@@ -1,42 +1,40 @@
 .conteudo-ig {
-    height: 1570px;
-    background: var(--cor-0);
+  height: 600px;
+  background: var(--cor-0);
 }
 
 .conteudo-ig h2 {
-    margin-bottom: 40px;
-    margin-top: 74px;
-    text-align: center;
+  margin-bottom: 40px;
+  margin-top: 74px;
+  text-align: center;
 }
 
 .conteudo-ig ul {
-    display: flex;
-gap: 40px;
-padding: 0 20px;
-overflow: auto;
+  display: flex;
+  gap: 40px;
+  padding: 0 20px;
+  overflow: auto;
 }
-
 
 .conteudo-ig img {
-    object-fit: cover;
+  object-fit: cover;
 }
 
-
-
-@media (max-width:1550px){
-    .conteudo-ig img {
-    max-width: 400px;  
-    }
+@media (max-width: 1550px) {
 }
 
-@media (max-width:1300px){
-    .conteudo-ig img {
-    max-width: 320px; 
-    }
+@media (max-width: 1300px) {
+  .conteudo-ig img {
+    max-width: 360px;
+  }
 
-    .post-ig ul {
-        overflow: scroll;
-    
+  .post-ig ul {
+    overflow: auto;
+  }
+}
 
-    }
+@media (max-width: 650px) {
+  .conteudo-ig h2 {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+  }
 }

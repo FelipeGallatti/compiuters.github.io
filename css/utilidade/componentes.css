@@ -1,43 +1,42 @@
 .container {
-    max-width: 1200px;
-    box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left:auto;
-    margin-right:auto;
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
 .botao {
-    background: linear-gradient(#00E32D, #0CBA29);
-    padding: 16px 32px;
-    display: inline-block;
-    border-radius: 5px;
-    color: #03320b;
+  background: linear-gradient(#00e32d, #0cba29); 
+  padding: 16px 32px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #03320b;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
- font: 600 0.9rem/1 "poppins", sans-serif;
+  font: 600 0.9rem/1 "poppins", sans-serif;
 }
 
 .botao:hover {
-    background: linear-gradient(#00c928, #09a123); 
+  background: linear-gradient(#00c928, #09a123);
 }
 
-@media(max-width: 1000px) {
-    .botao {
+@media (max-width: 1000px) {
+  .botao {
     padding: 12px 18px;
-    font-size: .8rem;
-    }
+    font-size: 0.8rem;
+  }
 }
 
-@media(max-width: 750px){
-    .botao {
-        padding: 8px 14px;
-    }
+@media (max-width: 750px) {
+  .botao {
+    padding: 8px 14px;
+  }
 }
 
-@media(max-width: 650px){
-    .botao {
-        font-size: 1.2rem;
-        font-weight: 500;
-    }
+@media (max-width: 650px) {
+  .botao {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
 }

@@ -1,155 +1,163 @@
 .assistencia-bg {
-    background: var(--cor-11);
-    display: block;
-    height: 1570px;
-    max-width: 100%;
+  background: var(--cor-11);
+  display: block;
+  height: 1570px;
+  max-width: 100%;
 }
 
 .assistencia {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0 40px;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 74px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 74px;
 }
 
 .assistencia-conteudo h2 {
-    margin-bottom: 18px;
-    max-width: 16ch;
+  margin-bottom: 18px;
+  max-width: 16ch;
 }
 
 .assistencia-conteudo p {
-    max-width: 45ch;
-        margin-bottom: 18px;
+  max-width: 45ch;
+  margin-bottom: 18px;
 }
 
 .assistencia-conteudo a::after {
-    content: "";
-    display: block;
-    height: 2px;
-    background: var(--p-1);
-    max-width: 40.6%;
-    margin-top: 2px;
+  content: "";
+  display: block;
+  height: 2px;
+  background: var(--p-1);
+  max-width: 40.6%;
+  margin-top: 2px;
 }
-
 
 .assistencia-conteudo img {
-    height: 100%;
-    object-fit: cover;
+  height: 100%;
+  object-fit: cover;
 }
 
-.problemas{
-    padding-top: 50px;
+.problemas {
+  padding-top: 50px;
 }
-.problemas h2{
-    margin-bottom: 50px;
+.problemas h2 {
+  margin-bottom: 50px;
 }
-.problemas h3{
-text-align: center;
-background: var(--cor-12);
-padding: 14px;
+.problemas h3 {
+  text-align: center;
+  background: var(--cor-12);
+  padding: 14px;
 }
 
 .problemas h3:hover {
-    color: var(--p-1);
-    cursor:cell;
+  color: var(--p-1);
+  cursor: cell;
 }
-
 
 .problemas ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
 }
 
-
 .problemas li {
-    flex: 1;
-    min-width: 200px;
-
+  flex: 1;
+  min-width: 200px;
 }
 
 .problemas a {
-    margin-top: 40px;
-    font-size: 2rem;
-    display: block;
-    text-align: center;
+  margin-top: 40px;
+  font-size: 2rem;
+  display: block;
+  text-align: center;
 }
 
 .lista-problemas::after {
-    content: "";
-    display: block;
-    height: 1px;
-    background: var(--cor-7);
-    margin-top: 40px;
-    max-width: 100%;
-    margin-left:auto;
-    margin-right:auto;
+  content: "";
+  display: block;
+  height: 1px;
+  background: var(--cor-7);
+  margin-top: 40px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 1000px) {
-    .problemas ul {
-     display: flex;
-        gap: 40px;
-        overflow: auto;
-    }
+  .problemas ul {
+    display: flex;
+    gap: 40px;
+    overflow: auto;
+  }
 
-    .assistencia-bg {
-        height: 1000px;
-    }
+  .assistencia-bg {
+    height: 1000px;
+  }
 }
 
-
 @media (max-width: 1000px) {
-.assistencia-conteudo h2 {
+  .assistencia-conteudo h2 {
     font: 600 2rem/1.25 "Poppins", sans-serif;
-}
+  }
 
-.assistencia-conteudo p {
+  .assistencia-conteudo p {
     font: 400 0.875rem/1.43 "Roboto", sans-serif;
+  }
+
+  .assistencia-conteudo a {
+    font: 700 0.9rem/1.5 "roboto", sans-serif;
+  }
+
+  .problemas h2 {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+  }
 }
 
-.assistencia-conteudo a {
-    font: 700 .9rem/1.5 "roboto", sans-serif;
-}
+@media (max-width: 850px) {
+  .assistencia {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-.problemas h2 {
-    font: 600 2rem/1.25 "Poppins", sans-serif;   
-}
-}
+  .assistencia-conteudo {
+    display: flex;
+    flex-direction: column;
+  }
 
-
-@media (max-width:850px) {
-    .assistencia {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .assistencia-conteudo {
-        margin-left: 77px;
-    }
-
-    .assistencia-conteudo h2 {
+  .assistencia-conteudo h2 {
     font: 600 2.73rem/1.1 "poppins", sans-serif;
     max-width: 50ch;
-    }
+  }
 
-    .assistencia-conteudo p {
-        font: 400 1.1rem/1.5 "roboto", sans-serif;
-        max-width: 86ch;
-    }
+  .assistencia-conteudo p {
+    font: 400 1.1rem/1.5 "roboto", sans-serif;
+    max-width: 86ch;
+  }
 
-    .assistencia-conteudo a{
-        display: none;
-    }
+  .assistencia-conteudo a {
+    display: none;
+  }
 
-    .img-assistencia{
-        max-width: 650px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .assistencia-bg {
-        height: 1300px;
-    }
+  .img-assistencia {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .assistencia-bg {
+    height: 1300px;
+  }
+}
+
+@media (max-width: 650px) {
+  .assistencia-conteudo h2 {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+    margin-bottom: 4px;
+  }
+}
+
+@media (max-width: 500px) {
+  .assistencia-conteudo p {
+    font: 400 1rem/1.4 "Roboto", sans-serif;
+  }
 }
