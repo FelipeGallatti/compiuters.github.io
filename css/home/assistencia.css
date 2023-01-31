@@ -24,14 +24,6 @@
   margin-bottom: 18px;
 }
 
-.assistencia-conteudo a::after {
-  content: "";
-  display: block;
-  height: 2px;
-  background: var(--p-1);
-  max-width: 40.6%;
-  margin-top: 2px;
-}
 
 .assistencia-conteudo img {
   height: 100%;
