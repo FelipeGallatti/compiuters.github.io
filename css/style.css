@@ -8,7 +8,11 @@
 
 /*home*/
 @import "./home/introducao.css";
-@import "./computadores/computadores-lista.css";
+@import "./computadores-home/computadores-lista.css";
+@import ".//computadores-home/computadores-gamer.css";
 @import "./home/assistencia.css";
 @import "./home/conteudo-ig.css";
 @import "./home/footer.css";
+
+/* Termos e condições */
+@import "./termos-condições/termos.css"

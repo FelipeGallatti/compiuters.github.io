@@ -58,3 +58,14 @@
 .footer-copy span {
     color: var(--p-1);
 }
+
+
+@media (max-width:650px) {
+   .footer {
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-img{
+    display: none;
+}
+}

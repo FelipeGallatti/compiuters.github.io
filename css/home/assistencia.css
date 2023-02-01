@@ -24,6 +24,10 @@
   margin-bottom: 18px;
 }
 
+.assistencia-conteudo a {
+  border-bottom: solid 1px var(--p-1);
+}
+
 
 .assistencia-conteudo img {
   height: 100%;

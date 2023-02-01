@@ -1,0 +1,28 @@
+.titulo p {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--p-1);
+}
+
+.titulo span {
+color: var(--p-1);
+}
+
+.termos {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.termos h2{
+font-weight: 600;
+}
+
+.termos p {
+    margin-top: 10px;
+    max-width: 80ch;
+}
+
+.termos p + h2 {
+    margin-top: 40px;
+}

@@ -1,0 +1,122 @@
+.pcs-gamer-bg {
+    background: linear-gradient(to right, var(--cor-0) 19.5%, var(--cor-10) 0%)
+}
+
+.pcs-gamer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-top:60px;
+    padding-bottom:60px;
+
+}
+
+.pcs-gamer-img {
+    display: grid;
+}
+
+.pcs-gamer-img img {
+   grid-area: 1/1;
+}
+
+.pcs-gamer-img span {
+background: var(--cor-8);
+padding: 8px 16px 8px 8px;
+grid-area: 1/1;
+place-self: start end;
+display: inline-block;
+margin-top: 20px;
+border-radius: 5px 0 0 5px;
+}
+
+.pc-conteudo {
+    display: grid;
+grid-template-columns: 1fr auto;
+align-self: start;
+}
+
+
+.pc-conteudo h2,
+.pc-conteudo p{
+ grid-column: 1/-1;
+}
+
+.pc-conteudo h2{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pc-conteudo p {
+    font-weight: 100;
+}
+
+.pc-conteudo h2::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: var(--p-1);
+    border-radius: 5px;
+}
+
+
+
+.pc-conteudo p {
+margin-bottom: 20px;
+font-weight: 400;
+}
+
+.pc-conteudo a {
+grid-column: 3/-3;
+place-self: start;
+margin-top: 20px;
+}
+
+.pc-conteudo ul {
+    display: grid;
+    gap: 10px;
+}
+
+.pc-conteudo li {
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+}
+
+.pcs-gamer-bg .pc-conteudo li {
+    font-weight: 500;
+
+}
+
+.pc-conteudo img {
+    width: 24px;
+    margin-right: 8px;
+}
+
+@media(max-width:900px) {
+    .pcs-gamer {
+grid-template-columns: 1fr;
+gap: 20px;
+padding-top: 40px;
+padding-bottom: 40px;
+ }
+
+ .pcs-gamer-bg {
+    background: var(--cor-11);
+}
+}
+
+
+@media(max-width:800px) {
+
+    .titulo h1 {
+       font: 600 2rem/1.25 "Poppins", sans-serif;
+    }
+
+    .titulo p {
+        font: 400 0.1rem/1.5 "roboto", sans-serif;
+    }
+}
+
